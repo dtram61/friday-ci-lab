@@ -27,7 +27,6 @@ public class DiceTests {
 
        int roll = dice.roll();
        Random random = new Random();
-
        int randomDiceNumber = random.nextInt(6) + 1;
       assertEquals(randomDiceNumber, roll,
               "The random dice number falls between the range of 1-6");
